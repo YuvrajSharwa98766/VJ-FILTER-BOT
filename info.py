@@ -77,11 +77,11 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_open_link90')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
 
 # True Or False
-AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', True))
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', "True"))
+PM_SEARCH = bool(environ.get('PM_SEARCH', "True"))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', "True"))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', "True"))
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -96,17 +96,17 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', '')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
+VERIFY = bool(environ.get('VERIFY', 'True'))
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', 'True'))
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://publicearn.com/')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '89a884244c4c1710687618f38ca70b014d5c8ee2')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', '')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'https://publicearn.com/')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '89a884244c4c1710687618f38ca70b014d5c8ee2')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_to_open_link90')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', 'True'))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://publicearn.com/')
 SHORTLINK_API = environ.get('SHORTLINK_API', '89a884244c4c1710687618f38ca70b014d5c8ee2')
 
@@ -133,7 +133,7 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', "True")) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = True
@@ -147,10 +147,10 @@ URL = environ.get("URL", "")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
+RENAME_MODE = bool(environ.get('RENAME_MODE', "True")) # Set True or False
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
-AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', false)) # Set True or False
+AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', "false")) # Set True or False
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
