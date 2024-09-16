@@ -38,7 +38,71 @@ Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Updat
 
 ## Commands
 ```
-
+• /clone - Create your own clone auto filter bot
+• /index - index file from your channel
+• /logs - to get the recent errors
+• /stats - to get status of file in db.
+• /connections - To see all connected groups.
+• /settings - To open setting menu
+• /filter - add manual filters
+• /filters - view filter
+• /connect - connect to PM.
+• /disconnect - disconnect to PM
+• /del - delete a filter
+• /delall - delete all filters
+• /deleteall - delete all indexed files.
+• /delete - delete a specific file from index.
+• /info - get user info
+• /id - get tg ids.
+• /imdb - fetch info from imdn
+• /search - To search from various sources
+• /start - To start the bot
+• /setskip - To skip number of messages when indexing files
+• /users - to get list of my users and ids.
+• /chats - to get list of the my chats and ids
+• /leave - to leave from a chat.
+• /disable - do disable a chat.
+• /enable - re-enable chat.
+• /ban - to ban a user.
+• /unban - to unban a user.
+• /channel - to get list of total connected channels
+• /broadcast - to broadcast a message to all user
+• /grp_broadcast - To broadcast a message to all connected groups.
+• /batch - to create link for multiple posts
+• /link - to create link for one post
+• /status - Your Heroku API Key to check dyno, bot uptime and bot working day prediction.
+• /set_template - To set a custom IMDb template for individuals groups
+• /gfilter - To add global filters.
+• /gfilters - To view list of all global filters.
+• /delg - To delete a specific global filters.
+• /delallg - To delete all global filters from the bot's database.
+• /deletefiles - To delete PreDVD and CamRip file from the bot's database.
+• /add_premium - Add user to premium list
+• /remove_premium - Remove user from premium list
+• /plan - Check plan details
+• /myplan - Check your plan stats
+• /shortlink - set your url shortener in your group
+• /setshortlinkoff  - off shortlink in your group
+• /setshortlinkon - on shortlink in your group
+• /shortlink_info - check your group all shortlink and tutorial link details
+• /set_tutorial - set your URL shortener how to open link url
+• /remove_tutorial - remove your tutorial url
+• /restart - restart the bot server
+• /fsub - add force subscribe channel in group
+• /nofsub - remove or off force subscribe in your group
+• /rename - rename your file
+• /set_caption - add caption for your renamed file
+• /see_caption - see your saved caption
+• /del_caption - delete your saved caption
+• /set_thumb - add thumbnail for your renamed file
+• /view_thumb - view your saved thumbnail
+• /del_thumb - delete your saved thumbnail
+• /stream - generate stream and download link of your file
+• /telegraph - get telegraph link of any file under 5mb
+• /stickerid - to get id and unique I'd of sticker
+• /font - to get any type of front of any word
+• /purgerequests - delete all join requests from database
+• /totalrequests - get total number of join request from database
 ```
 
 ## Variables
